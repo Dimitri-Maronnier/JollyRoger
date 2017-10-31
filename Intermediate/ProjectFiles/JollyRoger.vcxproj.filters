@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\JollyRoger.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{497022C8-E401-47A8-ACC1-1100BAC50C5A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\JollyRoger.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\JollyRogerEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{ACCE9302-3B5B-40A3-B5BD-25A205DA9991}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\JollyRoger">
+			<UniqueIdentifier>{F713B032-CB72-4D15-9E6A-897054270A2D}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\JollyRoger\HeightMapReader.cpp">
+			<Filter>Source\JollyRoger</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JollyRoger\HeightMapReader.h">
+			<Filter>Source\JollyRoger</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\JollyRoger\JollyRoger.Build.cs">
+			<Filter>Source\JollyRoger</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\JollyRoger\JollyRoger.cpp">
+			<Filter>Source\JollyRoger</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JollyRoger\JollyRoger.h">
+			<Filter>Source\JollyRoger</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\JollyRoger\JollyRogerGameModeBase.cpp">
+			<Filter>Source\JollyRoger</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JollyRoger\JollyRogerGameModeBase.h">
+			<Filter>Source\JollyRoger</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

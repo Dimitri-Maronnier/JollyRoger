@@ -1,0 +1,3 @@
+C:\Users\C17\Documents\Unreal Projects\JollyRoger\Source\JollyRoger\JollyRoger.Build.cs
+C:\Users\C17\Documents\Unreal Projects\JollyRoger\Source\JollyRoger.Target.cs
+C:\Users\C17\Documents\Unreal Projects\JollyRoger\Source\JollyRogerEditor.Target.cs
