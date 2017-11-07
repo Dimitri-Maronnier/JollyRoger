@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{68401B70-33AC-40A8-BC8C-6BBFF8B54DE0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "...", "...", "{68401B70-33AC-40A8-BC8C-6BBFF8B54DE0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{97A200A8-FFFE-474F-ADC2-D510BE961817}"
 EndProject

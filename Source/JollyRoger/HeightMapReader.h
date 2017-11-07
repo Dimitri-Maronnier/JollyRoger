@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "RHICommandList.h"
 #include "Engine/TextureRenderTarget2D.h"
 #include "HeightMapReader.generated.h"
 
@@ -27,6 +28,10 @@ public:
 
 private:
 
+	void ReadPixels();
+
+	bool bReadPixelsStarted = false;
+	FRenderCommandFence ReadPixelFence;
 	TArray<FColor> ColorBuffer;
 	
 	
