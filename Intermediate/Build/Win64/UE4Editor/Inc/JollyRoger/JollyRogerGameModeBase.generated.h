@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define JOLLYROGER_JollyRogerGameModeBase_generated_h
 
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAJollyRogerGameModeBase(); \
 	friend JOLLYROGER_API class UClass* Z_Construct_UClass_AJollyRogerGameModeBase(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS \
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAJollyRogerGameModeBase(); \
 	friend JOLLYROGER_API class UClass* Z_Construct_UClass_AJollyRogerGameModeBase(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AJollyRogerGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AJollyRogerGameModeBase) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AJollyRogerGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,32 +61,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AJollyRogerGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AJollyRogerGameModeBase)
 
 
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_12_PROLOG
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_12_PROLOG
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_GENERATED_BODY \
+#define JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID JollyRoger_Source_JollyRoger_JollyRogerGameModeBase_h
+#define CURRENT_FILE_ID JollyRoger_master_Source_JollyRoger_JollyRogerGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

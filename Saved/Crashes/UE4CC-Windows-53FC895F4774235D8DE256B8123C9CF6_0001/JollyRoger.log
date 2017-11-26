@@ -1,0 +1,945 @@
+﻿Log file open, 11/08/17 13:12:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: JollyRoger
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(780822095) SRandInit(780822095).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.202724
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.08-12.12.57:189][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-12.12.57:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.08-12.12.57:253][  0]LogInit: Computer: UNHOLY
+[2017.11.08-12.12.57:253][  0]LogInit: User: Arnau
+[2017.11.08-12.12.57:253][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.08-12.12.57:253][  0]LogInit: High frequency timer resolution =2.250000 MHz
+[2017.11.08-12.12.57:253][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.08-12.12.57:253][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.08-12.12.57:253][  0]LogMemory: Process Physical Memory: 281.34 MB used, 281.34 MB peak
+[2017.11.08-12.12.57:253][  0]LogMemory: Process Virtual Memory: 274.78 MB used, 274.78 MB peak
+[2017.11.08-12.12.57:253][  0]LogMemory: Physical Memory: 3458.56 MB used,  4644.38 MB free, 8102.95 MB total
+[2017.11.08-12.12.57:253][  0]LogMemory: Virtual Memory: 655.39 MB used,  4644.38 MB free, 134217728.00 MB total
+[2017.11.08-12.12.58:195][  0]LogInit: Using OS detected language (fr-FR).
+[2017.11.08-12.12.58:195][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.11.08-12.12.58:346][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.11.08-12.12.58:347][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.11.08-12.13.01:571][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.08-12.13.01:640][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.11.08-12.13.01:640][  0]LogD3D11RHI:       2019/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.08-12.13.01:687][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.11.08-12.13.01:687][  0]LogD3D11RHI:       128/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.08-12.13.01:696][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.08-12.13.01:696][  0]LogD3D11RHI:       0/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.08-12.13.01:696][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.08-12.13.01:701][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.08-12.13.01:701][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.11.08-12.13.01:701][  0]LogWindows: EnumDisplayDevices:
+[2017.11.08-12.13.01:701][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.11.08-12.13.01:702][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.08-12.13.01:702][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.08-12.13.01:702][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.08-12.13.01:702][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.11.08-12.13.01:702][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.08-12.13.01:702][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.08-12.13.01:702][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.08-12.13.01:737][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.08-12.13.01:749][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.08-12.13.01:750][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Intermediate/Shaders/WorkingDirectory/9344/).
+[2017.11.08-12.13.01:750][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arnau/AppData/Local/Temp/UnrealShaderWorkingDir/1C3CA68D493D7D0F73F785B903155E03/'.
+[2017.11.08-12.13.01:750][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.08-12.13.03:571][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.08-12.13.03:642][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.08-12.13.03:713][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.08-12.13.03:799][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.08-12.13.03:968][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.08-12.13.04:045][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.08-12.13.04:165][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.08-12.13.04:251][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.08-12.13.04:344][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.08-12.13.04:472][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.08-12.13.04:569][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.08-12.13.04:657][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.08-12.13.04:764][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.08-12.13.04:867][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.08-12.13.04:946][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.08-12.13.05:098][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.08-12.13.05:098][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.08-12.13.05:170][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.08-12.13.05:354][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.08-12.13.05:411][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.08-12.13.05:497][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.08-12.13.05:590][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.08-12.13.05:670][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.08-12.13.05:760][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.08-12.13.05:760][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.08-12.13.07:053][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.08-12.13.07:896][  0]LogDerivedDataCache: Loaded boot cache 0.84s 93MB C:/Users/Arnau/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-12.13.07:896][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Arnau/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.08-12.13.07:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.08-12.13.07:896][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.08-12.13.07:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.08-12.13.07:896][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.08-12.13.07:914][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.08-12.13.07:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arnau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.08-12.13.07:937][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.08-12.13.07:937][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.08-12.13.07:969][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-12.13.07:970][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-12.13.12:388][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2017.11.08-12.13.12:536][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-12.13.13:414][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.08-12.13.13:503][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.08-12.13.13:503][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.08-12.13.13:503][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.08-12.13.13:503][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.08-12.13.13:503][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.08-12.13.13:504][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.08-12.13.14:336][  0]LogNetVersion: JollyRoger , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 541821768)
+[2017.11.08-12.13.14:834][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.062232 seconds
+[2017.11.08-12.13.14:840][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.08-12.13.14:840][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.08-12.13.14:840][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.08-12.13.14:942][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.08-12.13.38:285][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.08-12.13.38:362][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.08-12.13.39:923][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.08-12.13.40:665][  0]SourceControl: Source control is disabled
+[2017.11.08-12.13.40:665][  0]SourceControl: Source control is disabled
+[2017.11.08-12.13.40:803][  0]SourceControl: Source control is disabled
+[2017.11.08-12.13.40:907][  0]SourceControl: Source control is disabled
+[2017.11.08-12.13.42:284][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.08-12.13.42:737][  0]LogOcInput: OculusInput pre-init called
+[2017.11.08-12.13.43:262][  0]LogEngine: Initializing Engine...
+[2017.11.08-12.13.43:263][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.08-12.13.43:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.08-12.13.43:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.08-12.13.43:906][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.08-12.13.43:936][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.13.44:042][  0]LogInit: FAudioDevice initialized.
+[2017.11.08-12.13.44:187][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Arnau/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-12.13.44:195][  0]LogInit: Texture streaming: Enabled
+[2017.11.08-12.13.44:616][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.08-12.13.45:107][  0]LogInit: Transaction tracking system initialized
+[2017.11.08-12.13.45:711][  0]BlueprintLog: New page: Editor Load
+[2017.11.08-12.13.47:737][  0]LocalizationService: Localization service is disabled
+[2017.11.08-12.13.49:298][  0]LogConsoleResponse: Display: 
+[2017.11.08-12.13.50:394][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.08-12.13.50:395][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.08-12.13.50:395][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.08-12.13.51:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/' took 0.02s
+[2017.11.08-12.13.52:801][  0]SourceControl: Source control is disabled
+[2017.11.08-12.13.52:801][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Maps/Level_001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.08-12.13.52:802][  0]LightingResults: New page: Lighting Build
+[2017.11.08-12.13.52:865][  0]MapCheck: New page: Map Check
+[2017.11.08-12.13.52:865][  0]LightingResults: New page: Lighting Build
+[2017.11.08-12.13.54:217][  0]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.13.54:269][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-12.13.54:285][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-12.13.54:368][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.588ms to complete.
+[2017.11.08-12.13.54:368][  0]LogFileHelpers: Loading map 'Level_001' took 1.566
+[2017.11.08-12.13.54:672][  0]LogCollectionManager: Loaded 0 collections in 0.013978 seconds
+[2017.11.08-12.13.54:769][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/Collections/' took 0.01s
+[2017.11.08-12.13.54:769][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Developers/Arnau/Collections/' took 0.01s
+[2017.11.08-12.13.54:769][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Collections/' took 0.01s
+[2017.11.08-12.13.54:769][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.08-12.13.54:782][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2388 classes and 502 folders.
+[2017.11.08-12.13.54:877][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.11.08-12.13.55:674][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2017.11.08-12.13.55:767][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.11.08-12.13.55:820][  0]LogSlate: Took 0.019999 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-12.13.55:842][  0]LogSlate: Took 0.019868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.08-12.13.55:859][  0]LogSlate: Took 0.010032 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.08-12.13.56:047][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
+[2017.11.08-12.13.56:337][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0037 seconds. Added 1 classes and 2 folders.
+[2017.11.08-12.13.56:337][  0]LogLoad: (Engine Initialization) Total time: 65.21 seconds
+[2017.11.08-12.13.56:337][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.08-12.13.56:338][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.08-12.13.56:338][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.08-12.13.56:697][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.08-12.13.56:791][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-12.13.57:026][  1]LogAssetRegistry: Asset discovery search completed in 44.6606 seconds
+[2017.11.08-12.13.57:028][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.08-12.13.57:028][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2017.11.08-12.14.09:908][296]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:271).
+[2017.11.08-12.14.09:949][297]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:273).
+[2017.11.08-12.14.09:992][298]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:275).
+[2017.11.08-12.14.10:040][299]LogRenderer: Reallocating scene render targets to support 1208x592 Format 10 NumSamples 1 (Frame:277).
+[2017.11.08-12.14.10:092][300]LogRenderer: Reallocating scene render targets to support 1208x596 Format 10 NumSamples 1 (Frame:279).
+[2017.11.08-12.14.10:152][301]LogRenderer: Reallocating scene render targets to support 1208x608 Format 10 NumSamples 1 (Frame:281).
+[2017.11.08-12.14.10:215][302]LogRenderer: Reallocating scene render targets to support 1208x616 Format 10 NumSamples 1 (Frame:283).
+[2017.11.08-12.14.10:269][303]LogRenderer: Reallocating scene render targets to support 1208x640 Format 10 NumSamples 1 (Frame:285).
+[2017.11.08-12.14.10:332][304]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:287).
+[2017.11.08-12.14.10:383][305]LogRenderer: Reallocating scene render targets to support 1208x676 Format 10 NumSamples 1 (Frame:289).
+[2017.11.08-12.14.10:434][306]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:291).
+[2017.11.08-12.14.10:483][307]LogRenderer: Reallocating scene render targets to support 1208x696 Format 10 NumSamples 1 (Frame:293).
+[2017.11.08-12.14.10:537][308]LogRenderer: Reallocating scene render targets to support 1208x716 Format 10 NumSamples 1 (Frame:295).
+[2017.11.08-12.14.10:591][309]LogRenderer: Reallocating scene render targets to support 1208x724 Format 10 NumSamples 1 (Frame:297).
+[2017.11.08-12.14.10:651][310]LogRenderer: Reallocating scene render targets to support 1208x732 Format 10 NumSamples 1 (Frame:299).
+[2017.11.08-12.14.13:558][463]LogRenderer: Reallocating scene render targets to support 1212x732 Format 10 NumSamples 1 (Frame:404).
+[2017.11.08-12.14.13:613][464]LogRenderer: Reallocating scene render targets to support 1216x732 Format 10 NumSamples 1 (Frame:406).
+[2017.11.08-12.14.13:659][464]LogRenderer: Reallocating scene render targets to support 1228x732 Format 10 NumSamples 1 (Frame:408).
+[2017.11.08-12.14.13:749][466]LogRenderer: Reallocating scene render targets to support 1244x732 Format 10 NumSamples 1 (Frame:410).
+[2017.11.08-12.14.13:841][467]LogRenderer: Reallocating scene render targets to support 1248x732 Format 10 NumSamples 1 (Frame:412).
+[2017.11.08-12.14.13:912][468]LogRenderer: Reallocating scene render targets to support 1256x732 Format 10 NumSamples 1 (Frame:414).
+[2017.11.08-12.14.20:126][770]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-12.14.20:650][770]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 113 classes and 0 folders.
+[2017.11.08-12.14.21:396][770]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-12.14.21:565][770]LogSlate: Took 0.044518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.08-12.14.21:694][771]LogSlate: Took 0.020468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.08-12.14.27:041][847]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JollyRoger
+[2017.11.08-12.14.27:041][847]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.14.27:041][847]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.11.08-12.14.27:041][847]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.14.27:046][847]LogTemp: BranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.11.08-12.14.27:062][847]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Arnau\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.08-12.14.56:463][449]LogHttp: Warning: 000002427788A680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.14.56:463][449]LogHttp: Warning: 000002427788A680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.14.56:463][449]LogHttp: Warning: 000002427788A680: libcurl info message cache 1 (Closing connection 0)
+[2017.11.08-12.14.57:025][459]Cmd: STAT FPS
+[2017.11.08-12.15.06:935][759]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JollyRoger
+[2017.11.08-12.15.06:935][759]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.15.06:935][759]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.11.08-12.15.06:935][759]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.15.06:939][759]LogTemp: BranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.11.08-12.15.06:955][759]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Arnau\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.08-12.16.56:558][676]LogHttp: Warning: 0000024259BD5A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.16.56:558][676]LogHttp: Warning: 0000024259BD5A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.16.56:558][676]LogHttp: Warning: 0000024259BD5A80: libcurl info message cache 1 (Closing connection 1)
+[2017.11.08-12.17.05:239][863]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.18.39:591][625]LogSlate: Took 0.040343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.08-12.18.56:627][970]LogHttp: Warning: 000002424C7A7A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.18.56:627][970]LogHttp: Warning: 000002424C7A7A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.18.56:627][970]LogHttp: Warning: 000002424C7A7A00: libcurl info message cache 1 (Closing connection 2)
+[2017.11.08-12.20.56:683][325]LogHttp: Warning: 000002427914F100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.20.56:683][325]LogHttp: Warning: 000002427914F100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.20.56:683][325]LogHttp: Warning: 000002427914F100: libcurl info message cache 1 (Closing connection 3)
+[2017.11.08-12.21.13:364][658]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.22.56:787][622]LogHttp: Warning: 00000242986F2380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.22.56:787][622]LogHttp: Warning: 00000242986F2380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.22.56:787][622]LogHttp: Warning: 00000242986F2380: libcurl info message cache 1 (Closing connection 4)
+[2017.11.08-12.23.24:513][164]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.23.26:060][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.23.26:167][192]LogSavePackage: Save=50.02ms
+[2017.11.08-12.23.26:167][192]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateau80F7AC434857D38C7D59B0979D2CE916.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.23.26:174][192]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.23.29:132][300]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.23.29:268][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.23.29:268][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.23.29:269][300]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:23:29 PM)
+[2017.11.08-12.23.29:269][300]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.23.29:273][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003973s)
+[2017.11.08-12.23.29:274][300]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.23.29:274][300]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2017.11.08-12.23.29:274][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.005416s)
+[2017.11.08-12.23.29:299][300]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.23.29:355][300]LogInit: FAudioDevice initialized.
+[2017.11.08-12.23.29:410][300]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.23.29:413][300]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.23.29
+[2017.11.08-12.23.29:414][300]LogWorld: Bringing up level for play took: 0.001504
+[2017.11.08-12.23.29:477][300]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0029 seconds. Added 11 classes and 0 folders.
+[2017.11.08-12.23.29:479][300]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.29
+[2017.11.08-12.23.29:479][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.23.46:662][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.23.46:694][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.24.56:848][404]LogHttp: Warning: 0000024298193100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.24.56:848][404]LogHttp: Warning: 0000024298193100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.24.56:848][404]LogHttp: Warning: 0000024298193100: libcurl info message cache 1 (Closing connection 5)
+[2017.11.08-12.26.56:894][169]LogHttp: Warning: 000002428C74EC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.26.56:894][169]LogHttp: Warning: 000002428C74EC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.26.56:894][169]LogHttp: Warning: 000002428C74EC80: libcurl info message cache 1 (Closing connection 6)
+[2017.11.08-12.28.57:245][914]LogHttp: Warning: 000002428C74D000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.08-12.28.57:245][914]LogHttp: Warning: 000002428C74D000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.08-12.28.57:245][914]LogHttp: Warning: 000002428C74D000: libcurl info message cache 1 (Closing connection 7)
+[2017.11.08-12.34.57:875][913]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.34.58:827][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.34.58:944][926]LogSavePackage: Save=64.92ms
+[2017.11.08-12.34.58:944][926]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateauE12526324A85484F0502BF95F9EAF02B.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.34.58:950][926]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.35.01:501][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.35.01:522][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.35.01:522][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.35.01:523][ 21]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:35:01 PM)
+[2017.11.08-12.35.01:523][ 21]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.35.01:525][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002626s)
+[2017.11.08-12.35.01:526][ 21]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.35.01:526][ 21]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.11.08-12.35.01:526][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003695s)
+[2017.11.08-12.35.01:558][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.35.01:612][ 21]LogInit: FAudioDevice initialized.
+[2017.11.08-12.35.01:646][ 21]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.35.01:647][ 21]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.35.01
+[2017.11.08-12.35.01:648][ 21]LogWorld: Bringing up level for play took: 0.001307
+[2017.11.08-12.35.01:649][ 21]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.461
+[2017.11.08-12.35.01:650][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.35.08:118][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.35.08:155][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.02:146][382]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.36.03:331][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.36.03:444][399]LogSavePackage: Save=59.72ms
+[2017.11.08-12.36.03:444][399]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateauEC1E1C784B296DDDDF98CEB3F2F0B58F.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.36.03:449][399]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.36.05:709][485]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.36.05:732][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.05:732][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.36.05:732][485]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:36:05 PM)
+[2017.11.08-12.36.05:732][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.36.05:735][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002756s)
+[2017.11.08-12.36.05:736][485]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.36.05:736][485]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2017.11.08-12.36.05:736][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003829s)
+[2017.11.08-12.36.05:767][485]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.36.05:822][485]LogInit: FAudioDevice initialized.
+[2017.11.08-12.36.05:851][485]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.36.05:853][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.36.05
+[2017.11.08-12.36.05:853][485]LogWorld: Bringing up level for play took: 0.001490
+[2017.11.08-12.36.05:855][485]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.667
+[2017.11.08-12.36.05:855][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.13:048][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.13:082][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.38:328][484]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.08-12.36.56:624][ 76]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.36.56:647][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.56:647][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.36.56:647][ 76]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:36:56 PM)
+[2017.11.08-12.36.56:647][ 76]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.36.56:650][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002670s)
+[2017.11.08-12.36.56:651][ 76]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.36.56:651][ 76]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2017.11.08-12.36.56:651][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003787s)
+[2017.11.08-12.36.56:678][ 76]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.36.56:731][ 76]LogInit: FAudioDevice initialized.
+[2017.11.08-12.36.56:764][ 76]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.36.56:766][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.36.56
+[2017.11.08-12.36.56:766][ 76]LogWorld: Bringing up level for play took: 0.001508
+[2017.11.08-12.36.56:768][ 76]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 -0.42
+[2017.11.08-12.36.56:768][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.59:575][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.36.59:613][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.37.46:126][302]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.37.46:151][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.37.46:151][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.37.46:151][302]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:37:46 PM)
+[2017.11.08-12.37.46:151][302]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.37.46:154][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002830s)
+[2017.11.08-12.37.46:154][302]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.37.46:155][302]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2017.11.08-12.37.46:155][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003901s)
+[2017.11.08-12.37.46:185][302]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.37.46:243][302]LogInit: FAudioDevice initialized.
+[2017.11.08-12.37.46:278][302]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.37.46:280][302]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.37.46
+[2017.11.08-12.37.46:280][302]LogWorld: Bringing up level for play took: 0.001699
+[2017.11.08-12.37.46:282][302]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 1.093
+[2017.11.08-12.37.46:282][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.07:507][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.07:557][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.15:621][406]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.39.15:643][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.15:643][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.39.15:643][406]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:39:15 PM)
+[2017.11.08-12.39.15:643][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.39.15:646][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002706s)
+[2017.11.08-12.39.15:646][406]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.39.15:647][406]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2017.11.08-12.39.15:647][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003774s)
+[2017.11.08-12.39.15:677][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.39.15:735][406]LogInit: FAudioDevice initialized.
+[2017.11.08-12.39.15:769][406]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.39.15:772][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.39.15
+[2017.11.08-12.39.15:772][406]LogWorld: Bringing up level for play took: 0.002192
+[2017.11.08-12.39.15:774][406]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.586
+[2017.11.08-12.39.15:775][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.28:513][592]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.28:551][592]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.33:915][696]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.39.35:160][715]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.39.35:181][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.35:181][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.39.35:182][715]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:39:35 PM)
+[2017.11.08-12.39.35:182][715]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.39.35:184][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002672s)
+[2017.11.08-12.39.35:185][715]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.39.35:185][715]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2017.11.08-12.39.35:185][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003688s)
+[2017.11.08-12.39.35:226][715]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.39.35:280][715]LogInit: FAudioDevice initialized.
+[2017.11.08-12.39.35:317][715]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.39.35:319][715]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.39.35
+[2017.11.08-12.39.35:319][715]LogWorld: Bringing up level for play took: 0.001340
+[2017.11.08-12.39.35:321][715]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.133
+[2017.11.08-12.39.35:321][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.50:847][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.39.50:889][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.40.14:401][550]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.40.56:446][420]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.40.56:469][420]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.40.56:469][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.40.56:470][420]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:40:56 PM)
+[2017.11.08-12.40.56:470][420]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.40.56:473][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002816s)
+[2017.11.08-12.40.56:473][420]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.40.56:474][420]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2017.11.08-12.40.56:474][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.004160s)
+[2017.11.08-12.40.56:515][420]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.40.56:574][420]LogInit: FAudioDevice initialized.
+[2017.11.08-12.40.56:614][420]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.40.56:616][420]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.40.56
+[2017.11.08-12.40.56:616][420]LogWorld: Bringing up level for play took: 0.001576
+[2017.11.08-12.40.56:618][420]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 -0.571
+[2017.11.08-12.40.56:618][420]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.42.07:345][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.42.07:396][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.42.27:721][671]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.42.29:148][692]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.42.29:170][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.42.29:171][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.42.29:171][692]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:42:29 PM)
+[2017.11.08-12.42.29:171][692]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.42.29:174][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002764s)
+[2017.11.08-12.42.29:174][692]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.42.29:175][692]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2017.11.08-12.42.29:175][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003844s)
+[2017.11.08-12.42.29:210][692]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.42.29:266][692]LogInit: FAudioDevice initialized.
+[2017.11.08-12.42.29:302][692]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.42.29:304][692]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.42.29
+[2017.11.08-12.42.29:304][692]LogWorld: Bringing up level for play took: 0.001648
+[2017.11.08-12.42.29:306][692]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.117
+[2017.11.08-12.42.29:306][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.42.58:828][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.42.58:875][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.43.11:857][457]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.43.13:107][474]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.43.13:129][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.43.13:129][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.43.13:129][474]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:43:13 PM)
+[2017.11.08-12.43.13:129][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.43.13:133][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002990s)
+[2017.11.08-12.43.13:133][474]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.43.13:133][474]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2017.11.08-12.43.13:134][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.004053s)
+[2017.11.08-12.43.13:172][474]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.43.13:225][474]LogInit: FAudioDevice initialized.
+[2017.11.08-12.43.13:258][474]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.43.13:260][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.43.13
+[2017.11.08-12.43.13:261][474]LogWorld: Bringing up level for play took: 0.001497
+[2017.11.08-12.43.13:262][474]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.074
+[2017.11.08-12.43.13:263][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.44.06:395][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.44.06:444][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.39:675][155]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.48.44:389][284]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.48.44:410][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.44:410][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.48.44:410][284]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:48:44 PM)
+[2017.11.08-12.48.44:410][284]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.48.44:413][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2017.11.08-12.48.44:414][284]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.48.44:414][284]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2017.11.08-12.48.44:414][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.004003s)
+[2017.11.08-12.48.44:444][284]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.48.44:502][284]LogInit: FAudioDevice initialized.
+[2017.11.08-12.48.44:535][284]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.48.44:537][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.48.44
+[2017.11.08-12.48.44:537][284]LogWorld: Bringing up level for play took: 0.001423
+[2017.11.08-12.48.44:539][284]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 -0.65
+[2017.11.08-12.48.44:539][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.52:509][437]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.52:553][437]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.53:756][499]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.48.53:778][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.53:778][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.48.53:778][499]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:48:53 PM)
+[2017.11.08-12.48.53:778][499]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.48.53:781][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002592s)
+[2017.11.08-12.48.53:781][499]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.48.53:782][499]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2017.11.08-12.48.53:782][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003645s)
+[2017.11.08-12.48.53:814][499]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.48.53:867][499]LogInit: FAudioDevice initialized.
+[2017.11.08-12.48.53:899][499]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.48.53:900][499]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.48.53
+[2017.11.08-12.48.53:901][499]LogWorld: Bringing up level for play took: 0.001345
+[2017.11.08-12.48.53:902][499]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.714
+[2017.11.08-12.48.53:903][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.57:144][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.48.57:185][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.49.04:259][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.49.04:393][761]LogSavePackage: Save=82.90ms
+[2017.11.08-12.49.04:393][761]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateau3572AC83488BD1E96DFDF5A02319E95D.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.49.04:399][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.49.48:868][798]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JollyRoger
+[2017.11.08-12.49.48:868][798]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.49.48:868][798]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.11.08-12.49.48:868][798]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.49.48:868][798]LogTemp: BranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.11.08-12.49.48:878][798]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Arnau\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.08-12.50.14:375][280]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.50.14:398][280]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.14:398][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.50.14:398][280]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:50:14 PM)
+[2017.11.08-12.50.14:398][280]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.50.14:401][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002794s)
+[2017.11.08-12.50.14:402][280]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.50.14:402][280]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2017.11.08-12.50.14:402][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003972s)
+[2017.11.08-12.50.14:432][280]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.50.14:488][280]LogInit: FAudioDevice initialized.
+[2017.11.08-12.50.14:519][280]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.50.14:521][280]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.50.14
+[2017.11.08-12.50.14:521][280]LogWorld: Bringing up level for play took: 0.001481
+[2017.11.08-12.50.14:523][280]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 -0.666
+[2017.11.08-12.50.14:523][280]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.21:415][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.21:454][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.22:356][438]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.50.22:378][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.22:378][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.50.22:379][438]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:50:22 PM)
+[2017.11.08-12.50.22:379][438]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.50.22:381][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002643s)
+[2017.11.08-12.50.22:382][438]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.50.22:382][438]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2017.11.08-12.50.22:382][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003671s)
+[2017.11.08-12.50.22:414][438]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.50.22:468][438]LogInit: FAudioDevice initialized.
+[2017.11.08-12.50.22:503][438]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.50.22:505][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.50.22
+[2017.11.08-12.50.22:505][438]LogWorld: Bringing up level for play took: 0.001360
+[2017.11.08-12.50.22:507][438]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 -0.682
+[2017.11.08-12.50.22:507][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.30:357][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.30:398][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.54:014][107]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.50.55:137][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.50.55:271][123]LogSavePackage: Save=82.50ms
+[2017.11.08-12.50.55:272][123]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateauA6F9D3604A2EA960D942E8A54F5DFA54.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.50.55:277][123]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.50.57:934][217]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.50.57:956][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.50.57:956][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.50.57:956][217]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:50:57 PM)
+[2017.11.08-12.50.57:957][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.50.57:960][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002639s)
+[2017.11.08-12.50.57:960][217]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.50.57:961][217]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2017.11.08-12.50.57:961][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003703s)
+[2017.11.08-12.50.57:991][217]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.50.58:044][217]LogInit: FAudioDevice initialized.
+[2017.11.08-12.50.58:076][217]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.50.58:078][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.50.58
+[2017.11.08-12.50.58:079][217]LogWorld: Bringing up level for play took: 0.001600
+[2017.11.08-12.50.58:080][217]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.892
+[2017.11.08-12.50.58:081][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.01:992][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.02:030][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.11:774][566]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.51.11:798][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.11:798][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.51.11:798][566]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:51:11 PM)
+[2017.11.08-12.51.11:798][566]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.51.11:801][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002596s)
+[2017.11.08-12.51.11:801][566]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.51.11:801][566]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2017.11.08-12.51.11:802][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003656s)
+[2017.11.08-12.51.11:832][566]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.51.11:887][566]LogInit: FAudioDevice initialized.
+[2017.11.08-12.51.11:920][566]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.51.11:922][566]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.51.11
+[2017.11.08-12.51.11:923][566]LogWorld: Bringing up level for play took: 0.002304
+[2017.11.08-12.51.11:925][566]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.736
+[2017.11.08-12.51.11:925][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.22:248][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.22:303][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.25:544][817]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.51.25:568][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.25:568][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.51.25:568][817]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:51:25 PM)
+[2017.11.08-12.51.25:568][817]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.51.25:571][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002690s)
+[2017.11.08-12.51.25:573][817]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.51.25:573][817]LogPlayLevel: PIE: World Init took: (0.002356s)
+[2017.11.08-12.51.25:573][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.005298s)
+[2017.11.08-12.51.25:608][817]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.51.25:661][817]LogInit: FAudioDevice initialized.
+[2017.11.08-12.51.25:694][817]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.51.25:695][817]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.51.25
+[2017.11.08-12.51.25:696][817]LogWorld: Bringing up level for play took: 0.001403
+[2017.11.08-12.51.25:698][817]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.509
+[2017.11.08-12.51.25:698][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.26:815][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.26:853][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.52:957][471]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.51.54:386][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.51.54:519][490]LogSavePackage: Save=81.44ms
+[2017.11.08-12.51.54:520][490]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateau497BDF0F43FD092910EC41A39C72A05D.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.51.54:526][490]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.51.56:537][559]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.51.56:558][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.51.56:559][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.51.56:559][559]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:51:56 PM)
+[2017.11.08-12.51.56:559][559]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.51.56:562][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002718s)
+[2017.11.08-12.51.56:562][559]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.51.56:562][559]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2017.11.08-12.51.56:563][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003801s)
+[2017.11.08-12.51.56:597][559]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.51.56:653][559]LogInit: FAudioDevice initialized.
+[2017.11.08-12.51.56:685][559]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.51.56:687][559]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.51.56
+[2017.11.08-12.51.56:687][559]LogWorld: Bringing up level for play took: 0.001328
+[2017.11.08-12.51.56:689][559]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 -0.499
+[2017.11.08-12.51.56:689][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.52.06:317][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.52.06:356][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.52.26:146][245]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JollyRoger
+[2017.11.08-12.52.26:146][245]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.52.26:146][245]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.11.08-12.52.26:146][245]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-12.52.26:150][245]LogTemp: BranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = UNHOLY/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.11.08-12.52.26:166][245]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Arnau\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.08-12.52.48:585][654]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.52.53:999][809]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.52.54:021][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.52.54:021][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.52.54:021][809]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:52:54 PM)
+[2017.11.08-12.52.54:021][809]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.52.54:024][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002611s)
+[2017.11.08-12.52.54:024][809]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.52.54:025][809]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.11.08-12.52.54:025][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003728s)
+[2017.11.08-12.52.54:054][809]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.52.54:108][809]LogInit: FAudioDevice initialized.
+[2017.11.08-12.52.54:139][809]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.52.54:140][809]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.52.54
+[2017.11.08-12.52.54:141][809]LogWorld: Bringing up level for play took: 0.001474
+[2017.11.08-12.52.54:143][809]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.954
+[2017.11.08-12.52.54:143][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.52.59:704][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.52.59:744][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.53.19:428][423]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.53.22:594][518]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.53.22:617][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.53.22:617][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.53.22:618][518]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:53:22 PM)
+[2017.11.08-12.53.22:618][518]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.53.22:620][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002647s)
+[2017.11.08-12.53.22:621][518]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.53.22:621][518]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.11.08-12.53.22:622][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003937s)
+[2017.11.08-12.53.22:651][518]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.53.22:709][518]LogInit: FAudioDevice initialized.
+[2017.11.08-12.53.22:739][518]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.53.22:741][518]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.53.22
+[2017.11.08-12.53.22:741][518]LogWorld: Bringing up level for play took: 0.001346
+[2017.11.08-12.53.22:743][518]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 -0.445
+[2017.11.08-12.53.22:744][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.54.40:879][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.54.40:921][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.54.45:447][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.54.45:580][ 43]LogSavePackage: Save=80.34ms
+[2017.11.08-12.54.45:580][ 43]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateau2CD587FB46B4D7A448C12EBBD3972D3A.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.54.45:586][ 43]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.55.21:856][951]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.55.24:981][ 18]LogEditorTransaction: Undo Delete current selection
+[2017.11.08-12.55.25:027][ 18]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-12.55.25:732][ 31]LogEditorTransaction: Undo Delete current selection
+[2017.11.08-12.55.33:211][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.55.33:334][188]LogSavePackage: Save=70.95ms
+[2017.11.08-12.55.33:334][188]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateauCECA38AC4E6B76231F0DFEBDD00988F3.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.55.33:340][188]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.55.42:613][405]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.55.45:571][486]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.55.45:594][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.55.45:594][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.55.45:594][486]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:55:45 PM)
+[2017.11.08-12.55.45:594][486]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.55.45:597][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002669s)
+[2017.11.08-12.55.45:598][486]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.55.45:598][486]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2017.11.08-12.55.45:598][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003740s)
+[2017.11.08-12.55.45:627][486]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.55.45:682][486]LogInit: FAudioDevice initialized.
+[2017.11.08-12.55.45:713][486]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.55.45:715][486]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.55.45
+[2017.11.08-12.55.45:716][486]LogWorld: Bringing up level for play took: 0.001442
+[2017.11.08-12.55.45:717][486]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.529
+[2017.11.08-12.55.45:718][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.55.58:829][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.55.58:870][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.56.42:309][857]BlueprintLog: New page: Compile bateau
+[2017.11.08-12.56.44:411][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bateau" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset" SILENT=true
+[2017.11.08-12.56.44:535][898]LogSavePackage: Save=69.48ms
+[2017.11.08-12.56.44:536][898]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/bateau29B46122457A9949A5CE13990444E45A.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset'
+[2017.11.08-12.56.44:541][898]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/bp/bateau.uasset
+[2017.11.08-12.56.47:234][986]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-12.56.47:256][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.56.47:256][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-12.56.47:257][986]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 2:56:47 PM)
+[2017.11.08-12.56.47:257][986]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-12.56.47:260][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002721s)
+[2017.11.08-12.56.47:260][986]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-12.56.47:260][986]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.11.08-12.56.47:261][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003779s)
+[2017.11.08-12.56.47:287][986]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-12.56.47:343][986]LogInit: FAudioDevice initialized.
+[2017.11.08-12.56.47:372][986]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-12.56.47:374][986]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-13.56.47
+[2017.11.08-12.56.47:374][986]LogWorld: Bringing up level for play took: 0.001648
+[2017.11.08-12.56.47:376][986]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.188
+[2017.11.08-12.56.47:376][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.58.13:938][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-12.58.13:978][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-13.00.13:009][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ocean/OceanGlobalVariable" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset" SILENT=true
+[2017.11.08-13.00.13:073][229]LogSavePackage: Save=9.66ms
+[2017.11.08-13.00.13:073][229]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/OceanGlobalVariable34DAA0D54426B60CC0F875A2F520348C.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset'
+[2017.11.08-13.00.13:080][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset
+[2017.11.08-13.00.16:058][295]BlueprintLog: New page: Compile OceanGlobalVariable
+[2017.11.08-13.00.44:537][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ocean/OceanGlobalVariable" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset" SILENT=true
+[2017.11.08-13.00.44:601][979]LogSavePackage: Save=9.71ms
+[2017.11.08-13.00.44:601][979]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/OceanGlobalVariable23C97DF644EC91970F74B2A47DD2CDF9.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset'
+[2017.11.08-13.00.44:607][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset
+[2017.11.08-13.00.45:115][989]BlueprintLog: New page: Compile OceanGlobalVariable
+[2017.11.08-13.01.48:367][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ocean/OceanGlobalVariable" FILE="../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset" SILENT=true
+[2017.11.08-13.01.48:428][370]LogSavePackage: Save=9.76ms
+[2017.11.08-13.01.48:428][370]LogSavePackage: Moving '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Saved/OceanGlobalVariable7EA540F84806695BA4808084EE3BCF5B.tmp' to '../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset'
+[2017.11.08-13.01.48:434][370]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Arnau/Documents/Unreal Projects/JollyRoger-master/Content/Ocean/OceanGlobalVariable.uasset
+[2017.11.08-13.05.30:138][695]BlueprintLog: New page: Compile bateau
+[2017.11.08-13.05.33:129][774]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-13.05.33:153][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-13.05.33:153][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-13.05.33:154][774]PIE: New page: PIE session: Level_001 (Nov 8, 2017, 3:05:33 PM)
+[2017.11.08-13.05.33:154][774]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_001
+[2017.11.08-13.05.33:156][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002678s)
+[2017.11.08-13.05.33:157][774]LogAIModule: Creating AISystem for world Level_001
+[2017.11.08-13.05.33:157][774]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2017.11.08-13.05.33:157][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_001.Level_001 to /Game/Maps/UEDPIE_0_Level_001.Level_001 (0.003744s)
+[2017.11.08-13.05.33:190][774]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.11.08-13.05.33:244][774]LogInit: FAudioDevice initialized.
+[2017.11.08-13.05.33:278][774]LogLoad: Game class is 'gameMode_C'
+[2017.11.08-13.05.33:280][774]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_001.Level_001 up for play (max tick rate 60) at 2017.11.08-14.05.33
+[2017.11.08-13.05.33:281][774]LogWorld: Bringing up level for play took: 0.001523
+[2017.11.08-13.05.33:284][774]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_001 0.095
+[2017.11.08-13.05.33:284][774]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_001.Level_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001' with GeneratedClass '/Game/Maps/Level_001.Level_001_C' with ClassGeneratedBy '/Game/Maps/Level_001.Level_001:PersistentLevel.Level_001'
+[2017.11.08-13.05.40:507][916]LogOutputDevice: Warning: 
+
+Script Stack:
+bateau_C.ExecuteUbergraph_bateau
+bateau_C.InpAxisEvt_forwardA_K2Node_InputAxisEvent_0
+
+[2017.11.08-13.05.41:581][916]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.074 s
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: === Handled ensure: ===
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: 
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 538]
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: 
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: Stack: 
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B6393E36
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B611C2D2
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B6134746
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8D129BC
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8CF1978
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8CF4484
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A883497A
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A876637C
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF40E944
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5CDDA4
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF60CA14
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5E52E2
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5CE7AE
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5E52E2
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF40E944
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5E4675
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A881B247
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A9935EBA
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A996777C
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A94FAB4C
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A950EC16
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A94F891B
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A950DDEA
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A87F3716
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A981B38B
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A9821E2B
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B5FE24F5
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B5FE2ADA
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B60029CE
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A983E512
+[2017.11.08-13.05.41:581][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A9843AA2
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A913F944
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A914B2C6
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000A722C982
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000A7ABD646
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor.exe!0x000000007562534A
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor.exe!0x0000000075633970
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor.exe!0x00000000756339EA
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor.exe!0x00000000756402D9
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: UE4Editor.exe!0x0000000075641C47
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: KERNEL32.DLL!0x00000000F3208364
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: ntdll.dll!0x00000000F5097091
+[2017.11.08-13.05.41:582][916]LogOutputDevice: Error: 
+[2017.11.08-13.05.41:584][916]LogStats:                SubmitErrorReport -  0.000 s
+[2017.11.08-13.05.48:690][916]LogStats:                    SendNewReport -  7.105 s
+[2017.11.08-13.05.48:690][916]LogStats:             FDebug::EnsureFailed -  8.183 s
+[2017.11.08-13.05.48:690][916]LogOutputDevice: Warning: 
+
+Script Stack:
+bateau_C.ExecuteUbergraph_bateau
+bateau_C.InpAxisEvt_forwardA_K2Node_InputAxisEvent_0
+
+[2017.11.08-13.05.48:755][916]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.044 s
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: === Handled ensure: ===
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: 
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 3054]
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: SetBodyTransform contains NaN (NONE)
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: inf,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: Stack: 
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B6393E36
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B611C2D2
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B6134746
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A944A042
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8D037E3
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8CFCF6C
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8D12A46
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8CF1978
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A8CF4484
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A883497A
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A876637C
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF40E944
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5CDDA4
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF60CA14
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5E52E2
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5CE7AE
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5E52E2
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF40E944
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000BF5E4675
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A881B247
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A9935EBA
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A996777C
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A94FAB4C
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A950EC16
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A94F891B
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A950DDEA
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A87F3716
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A981B38B
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A9821E2B
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B5FE24F5
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B5FE2ADA
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B60029CE
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A983E512
+[2017.11.08-13.05.48:755][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A9843AA2
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A913F944
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000A914B2C6
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000A722C982
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000A7ABD646
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor.exe!0x000000007562534A
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor.exe!0x0000000075633970
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor.exe!0x00000000756339EA
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor.exe!0x00000000756402D9
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: UE4Editor.exe!0x0000000075641C47
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: KERNEL32.DLL!0x00000000F3208364
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: ntdll.dll!0x00000000F5097091
+[2017.11.08-13.05.48:756][916]LogOutputDevice: Error: 
+[2017.11.08-13.05.48:757][916]LogStats:                SubmitErrorReport -  0.000 s

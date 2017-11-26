@@ -14,7 +14,7 @@ struct FColor;
 #endif
 #define JOLLYROGER_HeightMapReader_generated_h
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetRenderTargetValue) \
 	{ \
@@ -35,7 +35,7 @@ struct FColor;
 	}
 
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetRenderTargetValue) \
 	{ \
@@ -56,7 +56,7 @@ struct FColor;
 	}
 
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_INCLASS_NO_PURE_DECLS \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHeightMapReader(); \
 	friend JOLLYROGER_API class UClass* Z_Construct_UClass_AHeightMapReader(); \
@@ -66,7 +66,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_INCLASS \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAHeightMapReader(); \
 	friend JOLLYROGER_API class UClass* Z_Construct_UClass_AHeightMapReader(); \
@@ -76,7 +76,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_STANDARD_CONSTRUCTORS \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHeightMapReader(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHeightMapReader) \
@@ -89,7 +89,7 @@ private: \
 public:
 
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_ENHANCED_CONSTRUCTORS \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AHeightMapReader(AHeightMapReader&&); \
@@ -100,32 +100,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHeightMapReader); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHeightMapReader)
 
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_PRIVATE_PROPERTY_OFFSET
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_12_PROLOG
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_GENERATED_BODY_LEGACY \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_PRIVATE_PROPERTY_OFFSET
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_12_PROLOG
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_PRIVATE_PROPERTY_OFFSET \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_INCLASS \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_STANDARD_CONSTRUCTORS \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_PRIVATE_PROPERTY_OFFSET \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_INCLASS \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define JollyRoger_Source_JollyRoger_HeightMapReader_h_15_GENERATED_BODY \
+#define JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_PRIVATE_PROPERTY_OFFSET \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_INCLASS_NO_PURE_DECLS \
-	JollyRoger_Source_JollyRoger_HeightMapReader_h_15_ENHANCED_CONSTRUCTORS \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_PRIVATE_PROPERTY_OFFSET \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_INCLASS_NO_PURE_DECLS \
+	JollyRoger_master_Source_JollyRoger_HeightMapReader_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID JollyRoger_Source_JollyRoger_HeightMapReader_h
+#define CURRENT_FILE_ID JollyRoger_master_Source_JollyRoger_HeightMapReader_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
