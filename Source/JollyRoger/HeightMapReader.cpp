@@ -58,8 +58,8 @@ void AHeightMapReader::UpdateBuffer()
 		}
 	}
 	// to i initiate reading
-	/*ReadPixels();
-	ReadPixelFence.BeginFence();
+	//ReadPixels();
+	/*ReadPixelFence.BeginFence();
 	bReadPixelsStarted = true;*/
 
 		// To check if we are done reading: 
