@@ -1,9 +1,0 @@
-﻿  Compiling game modules for hot reload
-  Performing 1 actions (2 in parallel)
-  [1/1] Link UE4Editor-JollyRoger-1762.dll
-     Creating library C:\Users\C17\Documents\Unreal Projects\JollyRoger\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-JollyRoger-1762.suppressed.lib and object C:\Users\C17\Documents\Unreal Projects\JollyRoger\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-JollyRoger-1762.suppressed.exp
-HeightMapReader.gen.cpp.obj : error LNK2019: unresolved external symbol "public: __cdecl AHeightMapReader::AHeightMapReader(void)" (??0AHeightMapReader@@QEAA@XZ) referenced in function "void __cdecl InternalConstructor<class AHeightMapReader>(class FObjectInitializer const &)" (??$InternalConstructor@VAHeightMapReader@@@@YAXAEBVFObjectInitializer@@@Z)
-C:\Users\C17\Documents\Unreal Projects\JollyRoger\Binaries\Win64\UE4Editor-JollyRoger-1762.dll : fatal error LNK1120: 1 unresolved externals
-ERROR : UBT error : Failed to produce item: C:\Users\C17\Documents\Unreal Projects\JollyRoger\Binaries\Win64\UE4Editor-JollyRoger-1762.dll
-  Total build time: 7,43 seconds (Local executor: 0,00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: La commande ""C:\Program Files\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" JollyRogerEditor Win64 Development "C:\Users\C17\Documents\Unreal Projects\JollyRoger\JollyRoger.uproject" -waitmutex" s'est arrêtée avec le code 5. Assurez-vous d'avoir les droits suffisants pour exécuter cette commande.
